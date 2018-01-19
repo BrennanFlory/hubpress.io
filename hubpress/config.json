@@ -1,10 +1,49 @@
 {
-    "meta": {
-        "username": "BrennanFlory",
-        "repositoryName": "hubpress.io",
-        "branch": "gh-pages"
-    },
-    "theme": {
-        "name": "Casper"
-    }
+  "meta": {
+    "username": "BrennanFlory",
+    "repositoryName": "hubpress.io",
+    "branch": "gh-pages",
+    "cname": "home.spankeagle.me"
+  },
+  "theme": {
+    "name": "ichi"
+  },
+  "urls": {
+    "site": "http://home.spankeagle.me",
+    "hubpress": "https://home.spankeagle.me",
+    "theme": "//home.spankeagle.me/themes/ichi",
+    "images": "http://home.spankeagle.me/images"
+  },
+  "initialisationConfigComponent": {
+    "name": "initialise-configuration",
+    "computed": {},
+    "methods": {},
+    "staticRenderFns": [
+      null,
+      null,
+      null
+    ]
+  },
+  "site": {
+    "title": "Spank Eagle",
+    "description": "The official website for Spank Eagle",
+    "logo": "https://raw.githubusercontent.com/BrennanFlory/SpankEagle/master/assets/images/logo.png",
+    "cover": "https://raw.githubusercontent.com/BrennanFlory/SpankEagle/master/assets/images/background.png",
+    "delay": "",
+    "postsPerPage": "10",
+    "googleAnalytics": "",
+    "disqus": "spankeagle."
+  },
+  "socialnetwork": {
+    "email": "",
+    "github": "",
+    "twitter": "https://twitter.com/spankeagle",
+    "facebook": "",
+    "googleplus": "",
+    "instagram": "",
+    "pinterest": "",
+    "flickr": "",
+    "linkedin": "",
+    "stackoverflow": ""
+  }
 }
