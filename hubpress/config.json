@@ -1,10 +1,26 @@
 {
-    "meta": {
-        "username": "BrennanFlory",
-        "repositoryName": "hubpress.io",
-        "branch": "gh-pages"
-    },
-    "theme": {
-        "name": "Casper"
-    }
+  "meta": {
+    "username": "BrennanFlory",
+    "repositoryName": "hubpress.io",
+    "branch": "gh-pages"
+  },
+  "theme": {
+    "name": "casper"
+  },
+  "urls": {
+    "site": "https://BrennanFlory.github.io/hubpress.io",
+    "hubpress": "https://brennanflory.github.io/hubpress.io",
+    "theme": "//BrennanFlory.github.io/hubpress.io/themes/casper",
+    "images": "https://BrennanFlory.github.io/hubpress.io/images"
+  },
+  "initialisationConfigComponent": {
+    "name": "initialise-configuration",
+    "computed": {},
+    "methods": {},
+    "staticRenderFns": [
+      null,
+      null,
+      null
+    ]
+  }
 }
