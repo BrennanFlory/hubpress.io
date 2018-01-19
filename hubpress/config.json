@@ -9,10 +9,10 @@
     "name": "ichi"
   },
   "urls": {
-    "site": "https://BrennanFlory.github.io/hubpress.io",
-    "hubpress": "https://brennanflory.github.io/hubpress.io",
-    "theme": "//BrennanFlory.github.io/hubpress.io/themes/casper",
-    "images": "https://BrennanFlory.github.io/hubpress.io/images"
+    "site": "http://home.spankeagle.me",
+    "hubpress": "https://home.spankeagle.me",
+    "theme": "//home.spankeagle.me/themes/ichi",
+    "images": "http://home.spankeagle.me/images"
   },
   "initialisationConfigComponent": {
     "name": "initialise-configuration",
