@@ -1,0 +1,16 @@
+// = Your Blog title
+// See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
+// :hp-image: /covers/cover.png
+// :published_at: 2019-01-31
+// :hp-tags: HubPress, Blog, Open_Source,
+// :hp-alt-title: My English Title
+
+= An Embeded Video
+:hp-image: 
+:published_at: 2018-01-22
+:hp-tags: Welcome, Video, Spank_Eagle,
+:hp-alt-title: Honestly what is this
+
+# Honestly this is just too much work.
+
+video::D_JxMb8RLEY[youtube, 600, 500]
