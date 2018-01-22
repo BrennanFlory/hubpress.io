@@ -1,0 +1,18 @@
+// = Your Blog title
+// See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
+// :hp-image: /covers/cover.png
+// :published_at: 2019-01-31
+// :hp-tags: HubPress, Blog, Open_Source,
+// :hp-alt-title: My English Title
+
+= An Image Gallery
+:hp-image: https://c1.staticflickr.com/6/5204/5281151882_5d1ce0fdb6_b.jpg
+:published_at: 2018-01-22
+:hp-tags: Welcome, Image, Gallery, Spank_Eagle,
+:hp-alt-title: An Image Gallery
+
+# I honestly dont know what im doing but here's an image gallery.
+
++++
+<a data-flickr-embed="true" data-context="true"  href="https://www.flickr.com/photos/javh/5281151882/in/photostream/" title="West Side Sunrise"><img src="https://farm6.staticflickr.com/5204/5281151882_28f2c2aebb_o.jpg" width="2099" height="1400" alt="West Side Sunrise"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
++++
