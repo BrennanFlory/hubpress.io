@@ -15,8 +15,3 @@ I don't know what I'm doing. But here is an Image
 [#Embed-image]
 .An Embeded Image
 image:http://img00.deviantart.net/cd00/i/2014/355/8/0/a_very_basic_background_by_dolphingfx-d8aqms4.png[Embeded Image]
-
-//[#img-sunset]
-//.A mountain sunset
-//[link=http://www.flickr.com/photos/javh/5448336655]
-//image::sunset.jpg[Sunset,300,200]
