@@ -6,8 +6,10 @@
 // :hp-alt-title: My English Title
 
 = Welcome
+:hp-image: https://img00.deviantart.net/cd00/i/2014/355/8/0/a_very_basic_background_by_dolphingfx-d8aqms4.png
 :published_at: 2018-01-19
 :hp-tags: SpankEagle, Blog, First_Post,
 :hp-alt-title: Welcome to this shit
 
 I don't know what I'm doing.
+image::http://img00.deviantart.net/cd00/i/2014/355/8/0/a_very_basic_background_by_dolphingfx-d8aqms4.png[]
