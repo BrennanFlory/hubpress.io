@@ -6,7 +6,7 @@
 // :hp-alt-title: My English Title
 
 = An Embeded Video
-:hp-image: 
+:hp-image: https://img.youtube.com/vi/D_JxMb8RLEY/0.jpg
 :published_at: 2018-01-22
 :hp-tags: Welcome, Video, Spank_Eagle,
 :hp-alt-title: Honestly what is this
