@@ -1210,7 +1210,7 @@ webpackJsonp([2, 0], [function(e, t, a) {
 
     function a(e, t) { var a = t.protocol + "//" + t.host; return "localhost" === t.hostname ? (console.log("Local development"), a) : (t.host === e.username + ".github.io" || t.host === e.username + ".github.com" ? "master" !== e.branch && (a = a + "/" + e.repositoryName) : "master" === e.branch || e.cname && "" !== e.cname || (a = a + "/" + e.repositoryName), a) }
 
-    function n(e, t) { var a = void 0; return e.cname && "" !== e.cname ? a = (t === !1 ? "" : "https:") + "//" + e.cname : (a = (t === !1 ? "" : "https:") + ("//" + e.username + ".github.io"), "master" !== e.branch && (a = a + "/" + e.repositoryName)), a }
+    function n(e, t) { var a = void 0; return e.cname && "" !== e.cname ? a = (t === !1 ? "" : "http:") + "//" + e.cname : (a = (t === !1 ? "" : "https:") + ("//" + e.username + ".github.io"), "master" !== e.branch && (a = a + "/" + e.repositoryName)), a }
 
     function i(e) { return { site: n(e.meta), hubpress: a(e.meta, window.location), theme: n(e.meta, !1) + ("/themes/" + e.theme.name), images: n(e.meta) + "/images", getPostUrl: function(e) { return e.replace(/([\d]{4})-([\d]{2})-([\d]{2})-([\w-]*)\.adoc/, "/$1/$2/$3/$4.html") }, getPostGhPath: function(e) { return e.replace(/([\d]{4})-([\d]{2})-([\d]{2})-([\w-]*)\.adoc/, "$1/$2/$3/$4.html") }, getSiteUrl: n } }
     Object.defineProperty(t, "__esModule", { value: !0 }), t.default = i
@@ -1343,7 +1343,7 @@ webpackJsonp([2, 0], [function(e, t, a) {
 
     function n(e) { d = e }
 
-    function i(e) { return e && d.urlSSL ? d.urlSSL : e ? d.url.replace("https://", "https://") : d.url }
+    function i(e) { return e && d.urlSSL ? d.urlSSL : e ? d.url.replace("http://", "https://") : d.url }
 
     function o() {
         var e, t, a = Array.prototype.slice.call(arguments),
@@ -1374,7 +1374,7 @@ webpackJsonp([2, 0], [function(e, t, a) {
         return u && (u.indexOf("://") !== -1 || u.match(/^(\/\/|#|[a-zA-Z0-9\-]+:)/)) ? u : s(u, a, n)
     }
 
-    function l() { var e; return e = d.forceAdminSSL ? (d.urlSSL || d.url).replace(/^.*?:\/\//g, "https://") : d.urlSSL ? d.urlSSL.replace(/^.*?:\/\//g, "https://") : d.url.match(/^https:/) ? d.url : d.url.replace(/^.*?:\/\//g, "//"), e.replace(/\/$/, "") + m + "/" }
+    function l() { var e; return e = d.forceAdminSSL ? (d.urlSSL || d.url).replace(/^.*?:\/\//g, "http://") : d.urlSSL ? d.urlSSL.replace(/^.*?:\/\//g, "https://") : d.url.match(/^https:/) ? d.url : d.url.replace(/^.*?:\/\//g, "//"), e.replace(/\/$/, "") + m + "/" }
     var u = a(2),
         p = a(4),
         d = "",
@@ -1491,13 +1491,13 @@ webpackJsonp([2, 0], [function(e, t, a) {
 
     function n(e) { var t = {}; return m.each(e, function(e, a) { null !== e && "undefined" != typeof e && (t[a] = e) }), t }
 
-    function i(e, t) { var a, i = e.metaDescription ? d(e.metaDescription) : e.excerpt ? d(e.excerpt) : null; return a = { "@context": "https://schema.org", "@type": "Article", publisher: e.blog.title, author: { "@type": "Person", name: d(t.post.author.name), image: e.authorImage, url: e.authorUrl, sameAs: t.post.author.website || null, description: t.post.author.bio ? d(t.post.author.bio) : null }, headline: d(e.metaTitle), url: e.url, datePublished: e.publishedDate, dateModified: e.modifiedDate, image: e.coverImage, keywords: e.keywords && e.keywords.length > 0 ? e.keywords.join(", ") : null, description: i }, a.author = n(a.author), n(a) }
+    function i(e, t) { var a, i = e.metaDescription ? d(e.metaDescription) : e.excerpt ? d(e.excerpt) : null; return a = { "@context": "http://schema.org", "@type": "Article", publisher: e.blog.title, author: { "@type": "Person", name: d(t.post.author.name), image: e.authorImage, url: e.authorUrl, sameAs: t.post.author.website || null, description: t.post.author.bio ? d(t.post.author.bio) : null }, headline: d(e.metaTitle), url: e.url, datePublished: e.publishedDate, dateModified: e.modifiedDate, image: e.coverImage, keywords: e.keywords && e.keywords.length > 0 ? e.keywords.join(", ") : null, description: i }, a.author = n(a.author), n(a) }
 
-    function o(e) { var t = { "@context": "https://schema.org", "@type": "Website", publisher: d(e.blog.title), url: e.url, image: e.coverImage, description: e.metaDescription ? d(e.metaDescription) : null }; return n(t) }
+    function o(e) { var t = { "@context": "http://schema.org", "@type": "Website", publisher: d(e.blog.title), url: e.url, image: e.coverImage, description: e.metaDescription ? d(e.metaDescription) : null }; return n(t) }
 
-    function s(e, t) { var a = { "@context": "https://schema.org", "@type": "Series", publisher: d(e.blog.title), url: e.url, image: e.coverImage, name: t.tag.name, description: e.metaDescription ? d(e.metaDescription) : null }; return n(a) }
+    function s(e, t) { var a = { "@context": "http://schema.org", "@type": "Series", publisher: d(e.blog.title), url: e.url, image: e.coverImage, name: t.tag.name, description: e.metaDescription ? d(e.metaDescription) : null }; return n(a) }
 
-    function r(e, t) { var a = { "@context": "https://schema.org", "@type": "Person", sameAs: t.author.website || null, publisher: d(e.blog.title), name: d(t.author.name), url: e.authorUrl, image: e.coverImage, description: e.metaDescription ? d(e.metaDescription) : null }; return n(a) }
+    function r(e, t) { var a = { "@context": "http://schema.org", "@type": "Person", sameAs: t.author.website || null, publisher: d(e.blog.title), name: d(t.author.name), url: e.authorUrl, image: e.coverImage, description: e.metaDescription ? d(e.metaDescription) : null }; return n(a) }
 
     function c(e, t) { if (!l.isPrivacyDisabled("useStructuredData")) { var a = t.context; if ("post" === a) return i(e, t); if ("home" === a) return o(e); if ("tag" === a) return s(e, t); if ("author" === a) return r(e, t) } return null }
     var l = a(7),
@@ -1684,7 +1684,7 @@ webpackJsonp([2, 0], [function(e, t, a) {
                 n = this.context ? Array.isArray(this.context) ? this.context[0] : this.context : null,
                 i = !h.isPrivacyDisabled("useStructuredData");
             this.safeVersion;
-            return n && (a.push('<link rel="canonical" href="' + d(t.canonicalUrl) + '" />'), a.push('<meta name="referrer" content="origin" />'), t.previousUrl && a.push('<link rel="prev" href="' + d(t.previousUrl) + '" />'), t.nextUrl && a.push('<link rel="next" href="' + d(t.nextUrl) + '" />'), "paged" !== n && "page" !== n && i && (a.push(""), a.push.apply(a, o(t)), a.push(""), a.push('<script type="application/ld+json">\n' + (0, c.default)(t.schema, null, "    ") + "\n    </script>\n"))), a.push('<meta name="generator" content="HubPress" />'), a.push('<link rel="alternate" type="application/rss+xml" title="' + d(t.blog.title) + '" href="' + d(t.rssUrl) + '" />'), a.push(v.stylesheetTemplate({ source: "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/atom-one-dark.min.css" })), a.push("\n        <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>\n        "), new m(a.join("\n    ").trim())
+            return n && (a.push('<link rel="canonical" href="' + d(t.canonicalUrl) + '" />'), a.push('<meta name="referrer" content="origin" />'), t.previousUrl && a.push('<link rel="prev" href="' + d(t.previousUrl) + '" />'), t.nextUrl && a.push('<link rel="next" href="' + d(t.nextUrl) + '" />'), "paged" !== n && "page" !== n && i && (a.push(""), a.push.apply(a, o(t)), a.push(""), a.push('<script type="application/ld+json">\n' + (0, c.default)(t.schema, null, "    ") + "\n    </script>\n"))), a.push('<meta name="generator" content="HubPress" />'), a.push('<link rel="alternate" type="application/rss+xml" title="' + d(t.blog.title) + '" href="' + d(t.rssUrl) + '" />'), a.push(v.stylesheetTemplate({ source: "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/atom-one-dark.min.css" })), a.push("\n        <script src='http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>\n        "), new m(a.join("\n    ").trim())
         }
     }
     var r = a(75),
@@ -2045,7 +2045,7 @@ webpackJsonp([2, 0], [function(e, t, a) {
                 e = s ? s.mode : s
             } else if ("object" == ("undefined" == typeof e ? "undefined" : (0, o.default)(e))) {
                 var c = r.findModeByName(e.name);
-                if (!c) return console.error("CodeMirror language mode: " + e.name + " configuration error (CodeMirror语言模式配置错误，或者不支持此语言) See https://codemirror.net/mode/ for more details.");
+                if (!c) return console.error("CodeMirror language mode: " + e.name + " configuration error (CodeMirror语言模式配置错误，或者不支持此语言) See http://codemirror.net/mode/ for more details.");
                 e = c.mode
             }
             if (n) {
