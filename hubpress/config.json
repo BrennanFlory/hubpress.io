@@ -31,7 +31,7 @@
     "cover": "https://raw.githubusercontent.com/BrennanFlory/SpankEagle/master/assets/images/background.png",
     "delay": "",
     "postsPerPage": "10",
-    "googleAnalytics": "",
+    "googleAnalytics": "UA-113058516-1",
     "disqus": "spankeagle"
   },
   "socialnetwork": {
