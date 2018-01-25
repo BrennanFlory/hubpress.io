@@ -110,11 +110,8 @@ This field is a free-text field, but you need to specify the theme according to 
 The current folder names are:
 
 * casper
-* ghostium
-* ichi
-* roon
 * saga
-* uno
+* the-shell
 * uno-zen
 
 .New in 0.5.0
