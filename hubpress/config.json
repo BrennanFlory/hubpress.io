@@ -6,12 +6,12 @@
     "cname": "home.spankeagle.me"
   },
   "theme": {
-    "name": "the-shell"
+    "name": "saga"
   },
   "urls": {
     "site": "http://home.spankeagle.me",
     "hubpress": "https://home.spankeagle.me",
-    "theme": "//home.spankeagle.me/themes/uno",
+    "theme": "//home.spankeagle.me/themes/the-shell",
     "images": "http://home.spankeagle.me/images"
   },
   "initialisationConfigComponent": {
