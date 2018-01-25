@@ -6,7 +6,7 @@
         "cname": "home.spankeagle.me"
     },
     "theme": {
-        "name": "casper"
+        "name": "saga"
     },
     "urls": {
         "site": "https://home.spankeagle.me",
@@ -31,16 +31,16 @@
         "cover": "https://raw.githubusercontent.com/BrennanFlory/SpankEagle/master/assets/images/background.png",
         "delay": "",
         "postsPerPage": "10",
-        "googleAnalytics": "",
-        "disqus": "spankeagle."
+        "googleAnalytics": "UA-113058516-1",
+        "disqus": "spankeagle"
     },
     "socialnetwork": {
-        "email": "",
+        "email": "perezjared111@gmail.com.",
         "github": "",
         "twitter": "https://twitter.com/spankeagle",
-        "facebook": "",
+        "facebook": "https://www.facebook.com/SpankEagle",
         "googleplus": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/spankeagle/",
         "pinterest": "",
         "flickr": "",
         "linkedin": "",
