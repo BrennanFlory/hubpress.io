@@ -36,14 +36,17 @@
     },
     "socialnetwork": {
         "email": "perezjared111@gmail.com.",
-        "github": "",
+        "twitch": "https://twitch.tv/spankeagle",
+        "youtube": "https://www.youtube.com/channel/UCkXS3B81WqASbtNy1h_GQXg",
         "twitter": "https://twitter.com/spankeagle",
         "facebook": "https://www.facebook.com/SpankEagle",
-        "googleplus": "",
         "instagram": "https://www.instagram.com/spankeagle/",
-        "pinterest": "",
+        "discord": "https://discord.gg/5fYF8Xb",
         "flickr": "",
+        "googleplus": "",
+        "pinterest": "",
         "linkedin": "",
+        "github": "",
         "stackoverflow": ""
     }
 }
