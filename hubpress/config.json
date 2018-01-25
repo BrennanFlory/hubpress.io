@@ -6,12 +6,12 @@
     "cname": "home.spankeagle.me"
   },
   "theme": {
-    "name": "uno"
+    "name": "the-shell"
   },
   "urls": {
     "site": "http://home.spankeagle.me",
     "hubpress": "https://home.spankeagle.me",
-    "theme": "//home.spankeagle.me/themes/uno-zen",
+    "theme": "//home.spankeagle.me/themes/uno",
     "images": "http://home.spankeagle.me/images"
   },
   "initialisationConfigComponent": {
