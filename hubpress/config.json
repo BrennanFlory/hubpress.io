@@ -6,12 +6,12 @@
     "cname": "home.spankeagle.me"
   },
   "theme": {
-    "name": "casper"
+    "name": "saga"
   },
   "urls": {
     "site": "http://home.spankeagle.me",
     "hubpress": "https://home.spankeagle.me",
-    "theme": "//home.spankeagle.me/themes/saga",
+    "theme": "//home.spankeagle.me/themes/casper",
     "images": "http://home.spankeagle.me/images"
   },
   "initialisationConfigComponent": {
