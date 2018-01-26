@@ -3,16 +3,16 @@
     "username": "BrennanFlory",
     "repositoryName": "hubpress.io",
     "branch": "gh-pages",
-    "cname": "https://home.spankeagle.me"
+    "cname": "home.spankeagle.me"
   },
   "theme": {
     "name": "saga"
   },
   "urls": {
-    "site": "http://home.spankeagle.me",
+    "site": "http://https://home.spankeagle.me",
     "hubpress": "https://home.spankeagle.me",
-    "theme": "//home.spankeagle.me/themes/saga",
-    "images": "http://home.spankeagle.me/images"
+    "theme": "//https://home.spankeagle.me/themes/saga",
+    "images": "http://https://home.spankeagle.me/images"
   },
   "initialisationConfigComponent": {
     "name": "initialise-configuration",
